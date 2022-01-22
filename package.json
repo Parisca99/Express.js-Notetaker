@@ -1,0 +1,42 @@
+{
+  "name": "express.js-notetaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parisca99/Express.js-Notetaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parisca99/Express.js-Notetaker/issues"
+  },
+  "homepage": "https://github.com/Parisca99/Express.js-Notetaker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  }
+}
+{
+  "rules": {
+    "public_resource": {
+      ".read": true,
+      ".write": true
+    },
+    "some_resource": {
+      ".read": "auth.uid === 'my-service-worker'",
+      ".write": false
+    },
+    "another_resource": {
+      ".read": "auth.uid === 'my-service-worker'",
+      ".write": "auth.uid === 'my-service-worker'"
+      }
+    }
+  }
+}
